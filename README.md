@@ -1,7 +1,7 @@
 # GAN Survey
 
 ## 1/- Introduction
-Dans ce projet, on va entrainer deux modèles de GAN avec la dataset MNIST. Ce projet est réalisé par 3 étudiants de l'Ecole Centrale de Nantes dans le cadre d'une évaluation d'une matière d'apprentissage statistique. On résume le travaille proposé par Goodefellow, rappelle le principe de fonctionnement des GANs et on les étudie théoriquement et reproduit leurs résultats expérimentaux. Ainsi on compare également les GANs à d'autres modèles génératives, notamment les auto-encodeurs variationnels.
+Dans ce projet, on va entrainer deux modèles de GAN avec la dataset MNIST. Ce projet est réalisé par 3 étudiants de l'Ecole Centrale de Nantes dans le cadre d'une évaluation de la matière . Dans ce repértoire, onreproduit une partie des résultats expérimentaux “Generative Adversarial Nets” (Goodfellow et Al 2014) [1].
 
 
 ## 2/- Exigence
@@ -40,7 +40,7 @@ Pour repoduire les résultas execute:
 
 ## 5/- Réferences
 
-[1] ian Goodfellow et al. “Generative Adversarial Nets”. In:Advances in
+[1] Ian Goodfellow et al. “Generative Adversarial Nets”. In:Advances in
 Neural Information Processing Systems 27.Ed. by Z. Ghahramani et al.
 Curran Associates, Inc., 2014, pp. 2672–2680.
 
