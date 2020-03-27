@@ -4,13 +4,13 @@
 Dans ce projet, on va entrainer deux modèles de GAN avec la dataset MNIST. Ce projet est réalisé par 3 étudiants de l'Ecole Centrale de Nantes dans le cadre d'une évaluation d'une matière d'apprentissage statistique. On résume le travaille proposé par Goodefellow, rappelle le principe de fonctionnement des GANs et on les étudie théoriquement et reproduit leurs résultats expérimentaux. Ainsi on compare également les GANs à d'autres modèles génératives, notamment les auto-encodeurs variationnels.
 
 
-## 2/- exigence
+## 2/- Exigence
 * Python (3.6)
 * PyTorch deep learning framework(1.2.0)
 * Torchvision (0.4.0)
 * L'entrainement est effectué dans une GPU Nvidia GTX1050
 
-## 3/- utilisation
+## 3/- Utilisation
 Pour repoduire les résultas execute:
 
 
@@ -38,6 +38,42 @@ Pour repoduire les résultas execute:
   <img width="160" height="160" src="dense_samples.png">
 </p>
 
+## 5/- Réferences
 
+[1] ian Goodfellow et al. “Generative Adversarial Nets”. In:Advances in
+Neural Information Processing Systems 27.Ed. by Z. Ghahramani et al.
+Curran Associates, Inc., 2014, pp. 2672–2680.
+
+    @incollection{NIPS2014_5423,
+    title = {Generative Adversarial Nets},
+    author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+    booktitle = {Advances in Neural Information Processing Systems 27},
+    editor = {Z. Ghahramani and M. Welling and C. Cortes and N. D. Lawrence and K. Q. Weinberger},
+    pages = {2672--2680},
+    year = {2014},
+    publisher = {Curran Associates, Inc.},
+    url = {http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf}
+    }
+    
+[2] Yann LeCun and Corinna Cortes. “MNIST handwritten digit database”.
+In: (2010).
+
+    @article{lecun-mnisthandwrittendigit-2010,
+    added-at = {2010-06-28T21:16:30.000+0200},
+    author = {LeCun, Yann and Cortes, Corinna},
+    biburl = {https://www.bibsonomy.org/bibtex/2935bad99fa1f65e03c25b315aa3c1032/mhwombat},
+    groups = {public},
+    howpublished = {http://yann.lecun.com/exdb/mnist/},
+    interhash = {21b9d0558bd66279df9452562df6e6f3},
+    intrahash = {935bad99fa1f65e03c25b315aa3c1032},
+    keywords = {MSc _checked character_recognition mnist network neural},
+    lastchecked = {2016-01-14 14:24:11},
+    timestamp = {2016-07-12T19:25:30.000+0200},
+    title = {{MNIST} handwritten digit database},
+    url = {http://yann.lecun.com/exdb/mnist/},
+    username = {mhwombat},
+    year = 2010
+    }
+    
 
 
