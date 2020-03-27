@@ -1,10 +1,10 @@
 # GAN Survey
 
 ## 1/- Introduction
-Dans ce projet, on va entrainer deux modèles de GAN avec la dataset MNIST. Ce projet est réalisé par 3 étudiants de l'Ecole Centrale de Nantes dans le cadre d'une évaluation de la matière . Dans ce repértoire, onreproduit une partie des résultats expérimentaux “Generative Adversarial Nets” (Goodfellow et Al 2014) [1].
+Dans ce projet, on va entrainer deux modèles de GAN avec la dataset MNIST. Ce projet est réalisé par 3 étudiants de l'Ecole Centrale de Nantes dans le cadre d'une évaluation de la matière APST2. Dans ce repértoire, onreproduit une partie des résultats expérimentaux “Generative Adversarial Nets” (Goodfellow et Al 2014) [1].
 
 
-## 2/- Exigence
+## 2/- Exigences
 * Python (3.6)
 * PyTorch deep learning framework(1.2.0)
 * Torchvision (0.4.0)
